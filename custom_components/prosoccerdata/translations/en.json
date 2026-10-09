@@ -1,0 +1,42 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "ProSoccerData – Log in",
+        "description": "Enter your credentials for {url}",
+        "data": {
+          "email": "Email address",
+          "password": "Password"
+        }
+      },
+      "select_players": {
+        "title": "ProSoccerData – Select players",
+        "description": "Choose which players you want to track. The club is taken from the account.",
+        "data": {
+          "player_ids": "Players"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "no_players": "Login succeeded but no players were found on this account.",
+      "no_players_selected": "Please select at least one player.",
+      "unknown": "Unexpected error – check the Home Assistant logs."
+    },
+    "abort": {
+      "already_configured": "This ProSoccerData account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Team filter",
+        "description": "Leave the team empty to show the whole club calendar. Home field is matched against the location, so a training elsewhere is marked.",
+        "data": {
+          "team_filter": "Teams, comma separated",
+          "home_field": "Usual field, part of the address"
+        }
+      }
+    }
+  }
+}

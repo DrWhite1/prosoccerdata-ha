@@ -1,0 +1,6 @@
+{
+  "name": "ProSoccerData",
+  "description": "Kids' matches and trainings from ProSoccerData, filtered to your club team",
+  "render_readme": true,
+  "homeassistant": "2024.1.0"
+}
