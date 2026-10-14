@@ -37,6 +37,8 @@ One sensor per player. The state is the date of the next event. Attributes:
 
 ## Card
 
+![example image](https://github.com/DrWhite1/prosoccerdata-ha/blob/main/demo.png)
+
 Replace `sensor.player_last_match` with the entity created for the connected player. Home Assistant builds it from the player name on the account, lowercased, ending in `_last_match`. Requires [card-mod](https://github.com/thomasloven/lovelace-card-mod). A training on another pitch shows the street name because `other_field` is set from the home-field option.
 
 ```yaml
