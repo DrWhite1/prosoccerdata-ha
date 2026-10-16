@@ -70,5 +70,3 @@ card_mod:
     li { margin: 0; padding: 9px 0; border-bottom: 1px solid #2C3A34; color: #E7F0EC; font-size: 13px; }
     li::marker { content: none; }
 ```
-
-If you find this useful, you can [buy me a coffee](https://ko-fi.com/hyronimous).
